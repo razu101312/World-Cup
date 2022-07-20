@@ -1,0 +1,268 @@
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    
+    /* Top Section Start */
+    
+    .top-section {
+        width: 100%;
+    }
+    .top-sections-content {
+        width: 50%;
+        padding: 50px 25px 50px 50px;
+    }
+    .top-sections-content h1 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .top-sections-content p {
+        color: #DDDDDD;
+        margin: 10px 0;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .top-sections-img img {
+        /* max-width: 100%; */
+        position: absolute;
+        bottom: 0;
+        right: 4%;
+        height: 370px;
+    }
+
+    /* Top Section End */
+
+    
+    /* Content Section Start */
+    
+    .content-section {
+        width: 100%;
+    }
+    .content-section .menu {
+        width: 100%;
+        height: auto;
+        display: block;
+        background-color: #fff;
+        margin-bottom: 20px;
+    }
+    .content-section .menu li {
+        background-color: #fff;
+        color: #1A1A1A;
+        text-align: center;
+        width: 32%;
+        margin: 0 auto;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .content-section li.active {
+        background-color: #DD0000;
+    }
+    .content-section .menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #1A1A1A;
+    }
+    .content-section li.active a {
+        color: #fff;
+    }
+    .content-section .match-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .content-section .match-info .match {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .content-section .match-info .match img {
+        max-width: 98%;
+    }
+    .content-section .match-info .match button {
+        margin: 15px 0;
+        text-align: left;
+        padding: 5px 8px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #1A1A1A;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid #474747;
+    }
+    .content-section .match-info .match h3 {
+        color: #161616;
+        font-weight: 500;
+        font-size: 18px;
+        height: 70px;
+        
+    }
+    .content-section .match-info .match div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: safe;
+        align-items: center;
+    }
+    .content-section .match-info .match div img {
+        margin-right: 25px;
+    }
+    .content-section .match-info .match div span {
+        margin-right: 20px;
+    }
+    .content-button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .content-button .button{
+        color: #FFFFFF;
+        background-color: #DD0000;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        
+        
+    }
+
+    /* Content Section End */
+
+    
+    /* Footer Section Start */
+    
+    .footer-section {
+        width: 100%;
+    }
+    .footer-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+    /* Footer Section End */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    /* Top Secrion Start */
+    
+    .top-section {
+        width: 100%;
+        height: 673px;
+    }
+    .top-sections-content {
+        width: 100%;
+        padding: 30px 20px 30px 30px;
+        text-align: center;
+    }
+    .top-sections-content h1 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .top-sections-content p {
+        color: #DDDDDD;
+        margin: 15px 0;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .top-sections-img {
+        width: 100%;
+        position: relative;
+        
+    }
+    .top-sections-img img {
+        /* max-width: 100%; */
+        position: absolute;
+        bottom: 0;
+        right: 13%;
+        top: -98%;
+        height: 370px;
+    }
+
+    /* Top Section End */
+
+    /* Content Section Start */
+    
+    .content-section .menu li {
+        display:block;
+        width: 200px;
+    }
+    .content-section .match-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .content-section .match-info .match {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 98%;
+        margin-bottom: 45px;
+    }
+    .content-section .match-info .match img {
+        max-width: 98%;
+
+    }
+    .content-section .match-info .match button {
+        margin: 10px auto;
+    }
+    .content-section .match-info .match h3 {
+        color: #161616;
+        font-weight: 500;
+        font-size: 18px;
+        height: 70px;
+        
+    }
+    .content-section .match-info .match div {
+        margin: -15px auto;
+    }
+    .content-button {
+        display: none;
+    }
+    /* Content Section End */
+
+
+    /* Footer Section Start */
+
+    .footer-section {
+        width: 100%;
+    }
+    .footer-section h1 {
+        margin: 50px 0;
+        font-weight: 500;
+        font-size: 30px;
+        color: #DDDDDD;
+        border-bottom: 1px solid #2C2C2C;
+        display: block;
+        width: 80%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .footer-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .footer-section ul li {
+        margin-bottom: 20px;
+    }
+
+    /* Footer Section End */
+ }

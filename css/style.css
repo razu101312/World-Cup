@@ -1,0 +1,232 @@
+/* 
+==================
+    Common CSS
+==================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.section {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* 
+=========================
+    Top Section Start
+=========================
+*/
+.top-section {
+    background-color: #161616;
+    border-radius: 20px;
+}
+.top-sections-content {
+    width: 50%;
+    padding: 100px 50px 100px 100px;
+}
+.top-sections-content h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 75px;
+}
+.top-sections-content p {
+    color: #DDDDDD;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.top-sections-content button {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    transition: all 1s ease;
+}
+.top-sections-content button:hover {
+    animation-name: animatedButton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animatedButton {
+    0% {
+        background-color: #DD0000;
+    }
+    50% {
+        background-color: aqua;
+        color: #000;
+    }
+    100% {
+        border-color: #DD0000;
+    }
+}
+.top-sections-content button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+.top-sections-img {
+    width: 50%;
+    position: relative;
+    
+}
+.top-sections-img img {
+    /* max-width: 100%; */
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    height: 576px;
+}
+
+/* 
+=============================
+    Content Section Start
+============================
+*/
+.content-section {
+    background-color: #fff;
+    margin-top: 100px;
+}
+.content-section .menu {
+    width: 250px;
+    height: 300px;
+    list-style: none;
+    background-color: #161616;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.content-section .menu li {
+    background-color: #fff;
+    color: #1A1A1A;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content-section li.active {
+    background-color: #DD0000;
+}
+.content-section .menu li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+.content-section li.active a {
+    color: #fff;
+}
+.content-section .match-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1030px;
+}
+.content-section .match-info .match {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.content-section .match-info .match {
+    max-width: 100%;
+}
+.content-section .match-info .match button {
+    margin: 15px 0;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1A1A1A;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #474747;
+}
+.content-section .match-info .match h3 {
+    color: #161616;
+    font-weight: 500;
+    font-size: 18px;
+    height: 70px;
+    
+}
+#heading {
+    margin: 15px 0;
+}
+.match p {
+    margin-top: -40px;
+    padding: 0;
+}
+.content-section .match-info .match div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-section .match-info .match div img {
+    margin-right: 10px;
+}
+.content-section .match-info .match div span {
+    margin-right: 30px;
+}
+.content-button {
+    display: none;
+}
+
+
+/* 
+============================
+    Footer Section Start
+============================
+*/
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    margin-top: 150px;
+}
+.footer-section h1 {
+    margin: 100px 0;
+    font-weight: 500;
+    font-size: 40px;
+    color: #DDDDDD;
+    border-bottom: 1px solid #2C2C2C;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer-section ul li {
+    padding-left: 25px;
+}
+.footer-section ul li a {
+    color: #A3A3A3;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
